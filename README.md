@@ -22,12 +22,12 @@ index.js 示範著將所有 URL 反向代理到同一 `TARGET_URL` 若要反向�
 ```js
 app.all('/mysite1/*', createProxyMiddleware({
   target: process.env.TARGET1_URL,
-  pathRewrite: { '^/mysite1/': '', }
+  pathRewrite: { '^/mysite1': '', }
 }))
 
 app.all('/mysite2/*', createProxyMiddleware({
   target: process.env.TARGET2_URL,
-  pathRewrite: { '^/mysite2/': '', }
+  pathRewrite: { '^/mysite2': '', }
 }))
 ```
 並在 `Config Vars` 加入 `TARGET1_URL` 和 `TARGET2_URL` 的對應值
