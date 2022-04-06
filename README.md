@@ -6,7 +6,7 @@
 
 並在 Heroku 的 `Settings` 頁面上 找到 `Config Vars`
 
-填入 KEY: `TARGET_URL` VALUE: `http:\\您要反向代理的URL`
+填入 KEY: `TARGET_URL` VALUE: `http:\\您要反向代理的網址`
 
 ## 說明
 `Procfile`: 用於 Heroku 啟動 APP 的檔案
