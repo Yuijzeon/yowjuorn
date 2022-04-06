@@ -36,3 +36,7 @@ app.all('/mysite2/*', createProxyMiddleware({
 
 * 在 `https://<HerokuAppName>.herokuapp.com/mysite1/` 會和 `TARGET1_URL` 達到同一頁面
 * 在 `https://<HerokuAppName>.herokuapp.com/mysite2/` 會和 `TARGET2_URL` 達到同一頁面
+
+## 功用
+* 連到我的多個雲端實體 VM, 並省去配置 domain 和 ssl 的麻煩
+* `TARGET_URL` 可以在 Heroku 設定中更改 要換 URL 省時省力
