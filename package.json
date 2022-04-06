@@ -1,0 +1,14 @@
+{
+  "name": "yowjuorn",
+  "version": "0.0.0",
+  "description": "A Node.js proxy app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.4"
+  },
+  "license": "ISC"
+}
